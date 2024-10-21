@@ -1,0 +1,29 @@
+---
+dependencies:
+  - nholuong.php
+
+galaxy_info:
+  role_name: php-memcached
+  author: nholuong
+  description: PHP Memcached support for Linux
+  company: "Midwestern Mac, LLC"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.8
+  platforms:
+    - name: EL
+      versions:
+        - 7
+        - 8
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - database
+    - web
+    - php
+    - memcached
+    - cache
+    - performance
